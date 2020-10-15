@@ -1,8 +1,12 @@
+body {
+  margin: 0px;
+  font-family: "Whitney", "Open Sans", sans-serif;
+}
+
 .review_background {
   background-color: #2f3136;
   margin: 0px;
   color: white;
-
   margin-top:0%;
   width: 100%;
   height: 100%;
@@ -13,10 +17,29 @@
   width: 75%;
   margin: auto;
   margin-top: 5%;
-  padding: 120px;
-  padding-top:100px;
   background-color: #36393f;
   border-radius:4px;
+}
+
+.review_content {
+  padding: 120px;
+  padding-top:50px;
+}
+
+.review_header {
+  padding: 10px;
+  border-bottom: 2px solid #2b2e33;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  vertical-align:middle;
+}
+
+.review_header_tag {
+  font-size: 30px;
+  color: #72767d;
+  padding-right: 10px;
+  vertical-align:middle;
 }
 
 .review_avatar {
@@ -24,6 +47,7 @@
   height: 70px;
   float: left;
   margin-left: -95px;
+  border-radius: 50%;
 }
 
 .review_name {
@@ -43,4 +67,16 @@
 
 .review_body {
   padding-left: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2e3338; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #202225; 
 }
