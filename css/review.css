@@ -1,0 +1,46 @@
+.review_background {
+  background-color: #2f3136;
+  margin: 0px;
+  color: white;
+
+  margin-top:0%;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* prevents child margin from affecting my margin */
+}
+
+.review_container {
+  width: 75%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 120px;
+  padding-top:100px;
+  background-color: #36393f;
+  border-radius:4px;
+}
+
+.review_avatar {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-left: -95px;
+}
+
+.review_name {
+  font-weight:bold;
+  padding-right: 10px;
+  color: #2ecc71;
+}
+
+.review_timestamp {
+  font-size:10px;
+  color: #72767d;
+}
+
+.review_subtitle {
+  font-weight:bold;
+}
+
+.review_body {
+  padding-left: 20px;
+}
